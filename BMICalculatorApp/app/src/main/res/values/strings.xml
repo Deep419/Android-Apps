@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BMICalculatorApp</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="years">Years</string>
+    <string name="pounds">Pounds</string>
+    <string name="feet">Feet</string>
+    <string name="inches">Inches</string>
+    <string name="button">Calculate</string>
+    <string name="result">Result</string>
+    <string name="list1">BMI = %1$f</string>
+    <string name="list2">Normal BMI range : 18.5 - 25</string>
+    <string name="list3_good">Keep Up the Good Work !!</string>
+    <string name="list3_needToLose">You will need to lose %1$f lbs to</string>
+    <string name="list3_needToGain">You will need to gain %1$f lbs to</string>
+    <string name="list4">reach a BMI of %1$f</string>
+
+</resources>
