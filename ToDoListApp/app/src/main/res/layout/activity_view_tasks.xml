@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.to_dolistapp.view_tasks">
+
+    <TextView
+        android:id="@+id/tv_tasktitle"
+        android:layout_width="251dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="88dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_taskDate"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_taskTime"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tasktitle" />
+
+    <TextView
+        android:id="@+id/tv_taskTime"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_taskDate"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tasktitle" />
+
+    <TextView
+        android:id="@+id/tv_taskpriority"
+        android:layout_width="174dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_taskDate" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="@string/s_btn_add"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionMode.Title"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_bottom1_gotofirst"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="13dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_media_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_bottom3_edit_current_task"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_menu_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bottom2_gotoprevious" />
+
+    <Button
+        android:id="@+id/btn_bottom2_gotoprevious"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bottom1_gotofirst"
+        android:rotation="180" />
+
+    <Button
+        android:id="@+id/btn_bottom4_delete_current_task"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_menu_delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bottom3_edit_current_task" />
+
+    <Button
+        android:id="@+id/btn_bottom5_gotonext"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bottom4_delete_current_task" />
+
+    <Button
+        android:id="@+id/btn_bottom6_gotolast"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:textAlignment="center"
+        android:drawableTop="@android:drawable/ic_media_next"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bottom5_gotonext" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_tasknumber"
+        android:layout_width="368dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_taskpriority"
+        app:layout_constraintVertical_bias="0.933">
+
+        <TextView
+            android:id="@+id/tv_tasklist_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_tasklist_3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:id="@+id/tv_tasklist_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_tasklist_3"
+            app:layout_constraintStart_toEndOf="@+id/tv_tasklist_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_tasklist_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:text="@string/s_tv_tasklist1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_tasklist_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:id="@+id/tv_tasklist_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:text="@string/s_tv_tasklist3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_tasklist_4"
+            app:layout_constraintStart_toEndOf="@+id/tv_tasklist_2"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

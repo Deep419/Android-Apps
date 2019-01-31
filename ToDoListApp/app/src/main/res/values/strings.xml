@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">To-Do List App</string>
+    <string name="main_activity">View Tasks</string>
+    <string name="second_activity">Create Tasks</string>
+
+    <string name="s_btn_add">+</string>
+    <string name="s_tv_tasklist1">Task</string>
+    <string name="s_tv_tasklist3">of</string>
+
+    <string name="s_2_et_title">Title</string>
+    <string name="s_2_et_date">Date</string>
+    <string name="s_2_et_timee">Time</string>
+    <string name="s_2_tv_priority">Priority</string>
+
+    <string name="s_2_rb_low">Low</string>
+    <string name="s_2_rb_med">Medium</string>
+    <string name="s_2_rb_high">High</string>
+
+    <string name="s_2_btn_save">Save</string>
+</resources>
