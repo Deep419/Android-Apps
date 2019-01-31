@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.studentform_with_fragments.MainFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/s_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:hint="@string/s_email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/tv_department"
+            android:layout_width="137dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/s_d_depart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioGroup
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/tv_department"
+            android:layout_below="@+id/tv_department"
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioGroup">
+        <RadioButton
+            android:id="@+id/rb_sis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/s_sis" />
+
+        <RadioButton
+            android:id="@+id/rb_cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/s_cs" />
+
+        <RadioButton
+            android:id="@+id/rb_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/s_bio" />
+
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/s_other" />
+        </RadioGroup>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_ycm"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/tv_ycm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginTop="17dp"
+            android:text="@string/s_ycm"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/s_button" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

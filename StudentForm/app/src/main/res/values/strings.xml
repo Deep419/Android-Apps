@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StudentForm_with_Fragments</string>
+
+    <string name="s_name">Name</string>
+    <string name="s_email">Email</string>
+    <string name="s_sis">SIS</string>
+    <string name="s_cs">CS</string>
+    <string name="s_bio">BIO</string>
+    <string name="s_other">Others</string>
+    <string name="s_department">Department</string>
+    <string name="s_button">Submit</string>
+    <string name="s_ycm">Your current mood:</string>
+    <string name="s_d_student">Student Information</string>
+    <string name="s_d_name">Name:</string>
+    <string name="s_d_email">Email:</string>
+    <string name="s_d_depart">Department:</string>
+    <string name="s_d_mood">Mood:</string>
+    <string name="edit">Edit Information</string>
+    <string name="save">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
