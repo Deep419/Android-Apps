@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <TextView
+        android:id="@+id/textViewThreadTitle"
+        android:layout_width="309dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHome"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:tint="@android:color/black"
+        app:srcCompat="@drawable/ic_home" />
+
+    <EditText
+        android:id="@+id/editTextAddNewMessage"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textViewThreadTitle"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/sendMessage"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAddNewMessage"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/editTextAddNewMessage"
+        android:layout_toEndOf="@+id/textViewThreadTitle"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:tint="@android:color/black"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ListView
+        android:id="@+id/listVIewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp" />
+
+
+
+</RelativeLayout>

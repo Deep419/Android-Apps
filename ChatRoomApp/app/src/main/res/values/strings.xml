@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatRoomApp</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPass">Password</string>
+    <string name="preference_file_key">pref_file</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="choosePass">Choose Password</string>
+    <string name="retypePass">Repeat password</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Log Out</string>
+    <string name="addNewThread">Add New Thread</string>
+    <string name="currentThread">Current Threads</string>
+    <string name="sendMessage">Type message to send</string>
+</resources>
