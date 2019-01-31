@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Trivia Quiz App </string>
+    <string name="s_welcome">Welcome to Trivia App</string>
+    <string name="s_trivia">Trivia Ready!</string>
+    <string name="start">Start Trivia</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="stats">Trivia Stats</string>
+    <string name="correct">Correct Answers</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="quit">Quit</string>
+    <string name="question">Question goes here</string>
+    <string name="next">Next</string>
+    <string name="questionNumber">Question #</string>
+    <string name="time">Time Left : XXX</string>
+</resources>
