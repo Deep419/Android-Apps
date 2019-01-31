@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlickrImageSearchApp</string>
+    <string name="searchButton">Search</string>
+    <string name="search">Search Images</string>
+    <string name="clear">Clear Search</string>
+    <string name="apiKey">8642587-4b7de82b610a2278bd241606e</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
