@@ -14,7 +14,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements GetArticlesAsyncT
     }
 
     private void setArticle(Article current_article) {
-        Picasso.with(MainActivity.this).load(current_article.getUrlToImage()).into(imageView);
+        Picasso.get().load(current_article.getUrlToImage()).into(imageView);
         descrip.setText(current_article.getDescription());
         title.setText(current_article.getTitle());
         publishedAt.setText(current_article.getPublishedAt());

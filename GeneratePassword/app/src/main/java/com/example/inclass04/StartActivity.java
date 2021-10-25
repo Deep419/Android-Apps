@@ -2,7 +2,7 @@ package com.example.inclass04;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class StartActivity extends AppCompatActivity {

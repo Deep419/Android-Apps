@@ -16,6 +16,8 @@ public class Meeting {
         this.min = min;
     }
 
+    public Meeting() {}
+
     public String getTitle() {
         return title;
     }

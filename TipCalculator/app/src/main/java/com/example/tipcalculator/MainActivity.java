@@ -1,8 +1,8 @@
 package com.example.tipcalculator;
 
-import android.support.v7.app.ActionBar;
+import androidx.appcompat.app.ActionBar;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;

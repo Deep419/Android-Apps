@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292275583577",
+    "firebase_url": "https://meetingschedular5180.firebaseio.com",
+    "project_id": "meetingschedular5180",
+    "storage_bucket": "meetingschedular5180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292275583577:android:cfa410b7581c3c34754f48",
+        "android_client_info": {
+          "package_name": "com.example.meetingscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292275583577-j04aleidq44nac1qv90el3beajc0kcrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetingscheduler",
+            "certificate_hash": "424442de687c291c286665b36ffe7a3858566636"
+          }
+        },
+        {
+          "client_id": "292275583577-qi7mriiki74aki8pnfaa0dme8m1grvpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnyGTqeB90MDaAtJQjoLJTVQU8lNQodu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292275583577-qi7mriiki74aki8pnfaa0dme8m1grvpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

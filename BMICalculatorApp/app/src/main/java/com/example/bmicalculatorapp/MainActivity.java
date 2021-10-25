@@ -1,7 +1,7 @@
 package com.example.bmicalculatorapp;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText years, pounds, feet, inches;
     private float mass,height;
-    private Button mButton;
     private float bmi =0,weight_lower,weight_higher;
     private TextView list1, list2, list3, list4, list1_5;
 
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         pounds = findViewById(R.id.editTextPounds);
         feet = findViewById(R.id.editTextFeet);
         inches = findViewById(R.id.editTextInches);
-        mButton = findViewById(R.id.button);
+        Button mButton = findViewById(R.id.button);
 
         list1 = findViewById(R.id.list1);
         list1_5 = findViewById(R.id.list1_5);
